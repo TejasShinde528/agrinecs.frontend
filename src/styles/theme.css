@@ -1,0 +1,83 @@
+:root,
+[data-theme='light'] {
+  --color-blush: #eaf5e4;
+  --color-soft-pink: #f3f9ef;
+  --color-rose: #2f8f46;
+  --color-rose-hover: #247238;
+  --color-burgundy: #1b5e20;
+  --color-green: #2e7d32;
+  --color-green-soft: #66bb6a;
+  --color-green-bright: #8bc34a;
+  --color-brand: #c44b2b;
+  --color-brand-ink: #1f3d24;
+  --color-cream: #f7fbf4;
+  --color-white: #ffffff;
+  --color-text: #1f3d24;
+  --color-text-muted: #4d6352;
+  --color-border: rgba(46, 125, 50, 0.14);
+  --color-bg: #ffffff;
+  --color-bg-elevated: #f7fbf4;
+  --color-bg-section: #eef7ea;
+  --color-bg-alt: #e4f2de;
+  --color-surface: #ffffff;
+  --color-surface-muted: #f1f8ed;
+  --color-footer: #14361a;
+  --color-footer-text: #f4faf0;
+  --color-footer-muted: #b7d2bc;
+  --color-overlay: rgba(20, 54, 26, 0.72);
+  --color-focus: #2f8f46;
+  --shadow-soft: 0 10px 40px rgba(31, 61, 36, 0.08);
+  --shadow-card: 0 8px 28px rgba(31, 61, 36, 0.07);
+  --gradient-hero: linear-gradient(
+    135deg,
+    rgba(234, 245, 228, 0.94) 0%,
+    rgba(247, 251, 244, 0.82) 45%,
+    rgba(238, 247, 234, 0.55) 100%
+  );
+  --gradient-section: linear-gradient(180deg, #f7fbf4 0%, #eef7ea 100%);
+  --font-display: 'Fraunces', Georgia, 'Times New Roman', serif;
+  --font-body: 'Figtree', system-ui, sans-serif;
+  --radius-sm: 0.5rem;
+  --radius-md: 0.875rem;
+  --radius-lg: 1.5rem;
+  --radius-xl: 2rem;
+  --header-height: 4.75rem;
+}
+
+[data-theme='dark'] {
+  --color-blush: #1a2a1c;
+  --color-soft-pink: #162318;
+  --color-rose: #81c784;
+  --color-rose-hover: #a5d6a7;
+  --color-burgundy: #a5d6a7;
+  --color-green: #81c784;
+  --color-green-soft: #a5d6a7;
+  --color-green-bright: #c5e1a5;
+  --color-brand: #ef8a6a;
+  --color-brand-ink: #e8f5e9;
+  --color-cream: #101612;
+  --color-white: #0d1210;
+  --color-text: #e8f5e9;
+  --color-text-muted: #b7cbb9;
+  --color-border: rgba(129, 199, 132, 0.2);
+  --color-bg: #0d1210;
+  --color-bg-elevated: #141c16;
+  --color-bg-section: #172019;
+  --color-bg-alt: #1a2a1c;
+  --color-surface: #141c16;
+  --color-surface-muted: #1b261e;
+  --color-footer: #070b08;
+  --color-footer-text: #e8f5e9;
+  --color-footer-muted: #9bb6a0;
+  --color-overlay: rgba(4, 8, 5, 0.84);
+  --color-focus: #81c784;
+  --shadow-soft: 0 12px 40px rgba(0, 0, 0, 0.35);
+  --shadow-card: 0 10px 30px rgba(0, 0, 0, 0.28);
+  --gradient-hero: linear-gradient(
+    135deg,
+    rgba(26, 42, 28, 0.95) 0%,
+    rgba(20, 28, 22, 0.9) 50%,
+    rgba(23, 32, 25, 0.72) 100%
+  );
+  --gradient-section: linear-gradient(180deg, #141c16 0%, #172019 100%);
+}
